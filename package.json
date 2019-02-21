@@ -1,0 +1,24 @@
+{
+  "name": "gulpGit",
+  "version": "1.0.0",
+  "description": "gulp连接git",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yk9100/gulpGit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yk9100/gulpGit/issues"
+  },
+  "homepage": "https://github.com/yk9100/gulpGit#readme"
+}

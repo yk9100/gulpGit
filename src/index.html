@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>index</h1>
+	<ul> 
+		<!-- 我是注释 -->
+		 <li>item 2</li> 
+		 <li>item 2</li> 
+		 <li>item 123</li>
+	</ul>
+	<script type="text/javascript">
+		var myList = document.querySelector('ul');
+		var deepList = myList.cloneNode(true); 
+		console.log(deepList.childNodes);
+	</script>
+</body>
+</html>
